@@ -16,5 +16,31 @@
   * Whitespace is ignored, will not render in HTML file
   * Every property should end with a semi colon
   * Remember to compress your imagery: https://enviragallery.com/9-best-free-image-optimization-tools-for-image-compression/ no one want to wait and download a 1 MB image on a mobile device
-  * Fonts - web safe fonts will give you the most speed when someone is trying to view your site at an airport, museum, in a canyon - somewhere there is a slow connection, not everyone travels at the same speed
+  * Fonts - web safe fonts will give you the most speed when someone is trying
+   to view your site at an airport, museum, in a canyon - somewhere there is a slow connection, not everyone travels at the same speed
  * * * END CSS TIPS * * */
+
+h1 {
+  color: #007eff;
+}
+
+* {
+  color: pink;
+}
+
+body {
+  background-color: purple;
+}
+
+p {
+  color: #007eff;
+}
+
+i a {
+  color: orange;
+}
+
+img {
+  width: 29%;
+  height: auto;
+}
