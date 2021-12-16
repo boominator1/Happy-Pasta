@@ -22,6 +22,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 html, body {
@@ -41,7 +42,7 @@ html, body {
 }
 
 header {
-  background: red;
+  background: #00e6ff;
 }
 
 header div {
@@ -71,7 +72,8 @@ header div {
 }
 
 .page-title {
-  font-family: 'Cambria', times, serif;
+  /* font-family: 'Cambria', times, serif; */
+  font-family: 'Fira Sans', sans-serif;
   font-size: 5vh;
   padding-left: 1%;
   position:relative;
@@ -80,4 +82,95 @@ header div {
 img {
   width: 29%;
   height: auto;
+}
+
+
+.content {
+  background-color: rgba(18, 95, 139, 0.6);
+
+  margin: 0 auto;
+  min-height: 700px;
+  padding: 50px;
+  width: 80%;
+}
+
+section {
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  padding-top: 50px;
+}
+
+footer {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 70px;
+}
+
+
+footer div {
+  position: absolute;
+  right: 0;
+  width: 122px;
+  z-index: 1;
+}
+
+.codakid-icon {
+  background-image: url("../Images/codakid.png");
+}
+
+.facebook-icon {
+  background-image: url("../Images/facebook.png");
+}
+
+.youtube-icon {
+  background-image: url("../Images/youtube-logo.png");
+}
+
+footer div a {
+  background-size: 100% 100%;
+  display: inline-block;
+  height: 25px;
+  overflow: hidden;
+  text-indent: 101%;
+  width: 25px;
+}
+
+
+nav {
+    left: 25px;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+nav a {
+  color: white;
+  font-family: 'arial black', arial, sans-serif;
+  padding: 0.5vh;
+  text-decoration: none;
+}
+
+.nav-home {
+  background-color: #f7261b;
+}
+
+.nav-about-me {
+  background-color:#fc5e03 ;
+}
+
+.nav-my-thoughts {
+  background-color: #c2fc03;
+}
+
+.nav-games {
+  background-color: #03fc3d;
+}
+
+.nav-misc {
+  background-color: #03fca1;
 }
